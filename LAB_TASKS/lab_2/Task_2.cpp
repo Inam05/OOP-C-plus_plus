@@ -1,3 +1,7 @@
+/*
+Create an account class that stores account number, name, and balance of a person. Add
+member functions to enter and display the data, withdraw, and deposit amount.
+*/
 #include <iostream>
 using namespace std;
 const int max_leng = 50;
