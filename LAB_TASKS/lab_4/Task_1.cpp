@@ -1,6 +1,16 @@
+/*
+Write a program that creates a class called student. The data members of the class are
+name and age.
+• Create a null constructor and initialize the class object.
+• Create a parameterized constructor that can set the values being passed from the
+main function.
+• Create a display function called showall( ) which will be used to show values that
+have been set. Use the default copy constructor to show that copying of simple
+objects can be accomplished through the use of the default copy constructor.
+*/
+
 #include <iostream>
 using namespace std;
-
 class Car {
 private:
     int wheels;
