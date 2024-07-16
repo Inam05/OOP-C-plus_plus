@@ -1,3 +1,11 @@
+/*
+expand: takes an int array and the array's size as arguments. It should
+create a new array that is twice the size of the argument array. The function
+Engr. Amna Bibi Lab 5 Page 7
+should copy the contents of the argument array to the new array and
+initialize the unused elements of the new array with -1. The function should
+return a pointer to the new array.
+*/
 #include <iostream>
 using namespace std;
 
