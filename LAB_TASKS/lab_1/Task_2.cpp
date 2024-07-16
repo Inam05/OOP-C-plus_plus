@@ -1,3 +1,7 @@
+/*
+Write a C++ program that takes length, width of a rectangle from user to
+calculate perimeter and area of rectangle. Display the results.
+*/
 #include <iostream>
 using namespace std;
 
