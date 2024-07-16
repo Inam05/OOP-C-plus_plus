@@ -1,3 +1,10 @@
+/*
+Multilevel Inheritance
+Define a base class called `Animal` with member variables representing the animal's
+species and age. Derive a subclass called `Mammal` from the `Animal` class, and then
+derive another subclass called `Dog` from the `Mammal` class. Implement methods to
+display information about each type of animal.
+*/
 #include <iostream>
 #include <string>
 using namespace std;
