@@ -1,3 +1,10 @@
+/*
+concatenate: takes two int arrays and the arrays' sizes as arguments (that's
+4 arguments). It should create a new array big enough to store both arrays.
+Then it should copy the contents of the first array to the new array, and then
+copy the contents of the second array to the new array in the remaining
+elements and return a pointer to the new array.
+*/
 #include <iostream>
 using namespace std;
 
