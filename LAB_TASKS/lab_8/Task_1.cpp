@@ -1,3 +1,9 @@
+/*
+Single Inheritance
+Create a base class called `Vehicle` with a constructor that initializes a member variable
+representing the vehicle's year. Derive a subclass called `Car` from the `Vehicle` class with
+its own constructor that initializes additional member variables such as make and model.
+*/
 #include <iostream>
 #include <string>
 using namespace std;
