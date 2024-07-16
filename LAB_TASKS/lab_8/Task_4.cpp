@@ -1,3 +1,10 @@
+/*
+Hierarchical Inheritance
+Create a base class called `Shape` with a function called `draw()` that displays the shape's
+information. Derive two subclasses, `Circle` and `Square`, from the `Shape` class. Use
+the `draw()` function in each subclass to display specific information about the circle and
+square.
+*/
 #include <iostream>
 #include <string>
 using namespace std;
