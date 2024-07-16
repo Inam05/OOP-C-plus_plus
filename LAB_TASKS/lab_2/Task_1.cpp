@@ -1,3 +1,7 @@
+/*
+Create a student class that stores name, registration number and percentage. Add member
+functions to enter and display the data.
+*/
 #include <iostream>
 using namespace std;
 class Student
