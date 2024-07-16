@@ -1,3 +1,9 @@
+/*
+Write a program to create an employee class using parameterized constructor with two
+parameters id and name and along with method displayinfo() to display the data.
+While creating the objects obj1 and obj2 passed two arguments so that this
+constructor gets invoked after creation of obj1 and obj2.
+*/
 #include <iostream>
 using namespace std;
 class Employee {
