@@ -1,3 +1,12 @@
+/*
+Write a C++ program to make a car class with wheels, doors as private data members and
+cur_speed as public data member while speed and break as public member functions. Use
+constructor with default value of wheels=4,doors=2 and cur_speed=0 for initialization.
+Make two objects in the name of ferrari and hino.
+Ferrari is initialized through default values while hino has 10 wheels, 4 doors. Every time
+when you call speed function cur_speed is increased by 5 while break function decrease it
+by 5. Display current speed.
+*/
 #include<iostream>
 using namespace std;
 class Students {
