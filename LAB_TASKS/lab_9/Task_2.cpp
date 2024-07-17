@@ -1,3 +1,10 @@
+/*
+Create a base class called Employee with virtual functions
+calculateSalary() and displayInfo(). Derive subclasses FullTimeEmployee and
+PartTimeEmployee from Employee. Implement the calculateSalary() function
+differently in each subclass to calculate the salary based on hours worked or fixed
+salary, and implement displayInfo() to show employee details.
+*/
 #include <iostream>
 #include <string>
 
