@@ -1,3 +1,11 @@
+/*
+Write a base class named MathOperations that performs basic
+mathematical operations such as addition, subtraction, multiplication, and
+division. Derive subclasses to perform these operations with different data types
+of parameters or different number of parameters.
+e.g., Add operation with 2 parameters or 3 parameters, Add operation using
+Integer type parameters, Add operation using Double type parameters etc.
+*/
 #include <iostream>
 using namespace std;
 
