@@ -1,3 +1,18 @@
+/*
+Write a class Car
+that contains the following attributes:
+• The name of car
+• The direction of car (E, W, N, S)
+• The position of car (from imaginary zero point)
+The class has the following methods:
+• A constructor to initialize the attributes
+• Turn() method to change the direction of car to one step right side (i.e. if the
+direction is to E, it should be changed to S and so on)
+• Overload the turn() method to change the direction to any side directly. It
+should accept the direction as parameter.
+• Move() method to change the position of car away from zero point. It should
+accept the distance as parameter.
+*/
 #include <iostream>
 #include <cstring>
 using namespace std;
