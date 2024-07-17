@@ -1,3 +1,13 @@
+/*
+Write a class NumberConverter and declare overloaded functions in this class to
+convert one number to another base e.g binary to decimal, decimal to binary
+etc.
+The overloaded functions are:
+convertToDecimal()
+convertToBinary()
+convertToOctal()
+convertToHexadecimal()
+*/
 #include <iostream>
 #include <string>
 
