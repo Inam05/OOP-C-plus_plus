@@ -1,3 +1,8 @@
+/*
+Develop a program for a library management system. Create classes for Book and Member.
+Implement a friend function named issueBook() that allows a librarian to issue a book to a
+library member.
+*/
 #include <iostream>
 #include <string>
 
