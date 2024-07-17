@@ -1,3 +1,10 @@
+/*
+Create a class representing a Point in 2D space with x and y coordinates. Declare a
+constant pointer to an object of this class and call both constant and non-constant
+member functions through this pointer.
+Implement constant member functions to calculate distance from another point
+without modifying the point's coordinates.
+*/
 #include <iostream>
 using namespace std;
 
