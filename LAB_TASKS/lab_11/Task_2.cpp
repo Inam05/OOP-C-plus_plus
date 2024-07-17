@@ -1,3 +1,10 @@
+/*
+You are a software developer tasked with creating a basic inventory management system for a retail store. The store sells various 
+types of products, including electronics, clothing, and food items. Each product type has specific attributes and details that need
+to be managed.
+You need to create a base class Product with common attributes and methods for all products. Then, derive three subclasses: Electronics, 
+Clothing, and Food, each with additional attributes specific to their type. The system should be able to store and display details for each type of product.
+*/
 #include <iostream>
 #include <string>
 
