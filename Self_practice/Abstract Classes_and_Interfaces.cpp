@@ -1,43 +1,73 @@
 /*
-Define an abstract class Animal with pure virtual functions makeSound() and move(). Create derived classes Dog, Cat, and Bird that implement 
+Define an abstract class Animal with pure virtual functions makeSound() and move(). Create derived classes Dog, Cat, and Bird that implement
 these functions. Use the abstract class to demonstrate polymorphism.
 */
 
 #include <iostream>
 using namespace std;
 
-class Base1
+class Animal
 {
 public:
-    void greet()
+    virtual void makeSound() const = 0;
+    virtual void move() const = 0;
+    virtual ~Animal() {}
+};
+
+class Dog : public Animal
+{
+public:
+    void makeSound() const override
     {
-        cout << "Hello from Base1" << endl;
+        cout << "Woof!" << endl;
+    }
+
+    void move() const override
+    {
+        cout << "Dog runs" << endl;
     }
 };
 
-class Base2
+class Cat : public Animal
 {
 public:
-    void greet()
+    void makeSound() const override
     {
-        cout << "Hello from Base2" << endl;
+        cout << "Meow!" << endl;
+    }
+
+    void move() const override
+    {
+        cout << "Cat jumps" << endl;
     }
 };
 
-class Hybrid : public Base1, public Base2
+class Bird : public Animal
 {
 public:
-    void greet()
+    void makeSound() const override
     {
-        Base1::greet(); // Resolving ambiguity
-        Base2::greet();
+        cout << "Chirp!" << endl;
+    }
+
+    void move() const override
+    {
+        cout << "Bird flies" << endl;
     }
 };
 
 int main()
 {
-    Hybrid h;
-    h.greet();
+    Dog d;
+    Cat c;
+    Bird b;
+
+    Animal *animals[] = {&d, &c, &b};
+    for (Animal *animal : animals)
+    {
+        animal->makeSound();
+        animal->move();
+    }
 
     return 0;
 }
