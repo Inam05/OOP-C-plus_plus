@@ -1,0 +1,4 @@
+/*
+Implement a ThreadSafeQueue class that allows multiple threads to safely add and remove elements. 
+Use mutexes and condition variables to ensure thread safety.
+*/
