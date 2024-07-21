@@ -1,0 +1,4 @@
+/*
+Implement a Vector class with move semantics. Provide move constructor and move assignment 
+operator to efficiently transfer resources without deep copying.
+*/
