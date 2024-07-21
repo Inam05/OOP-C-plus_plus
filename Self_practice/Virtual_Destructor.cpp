@@ -1,0 +1,4 @@
+/*
+Explain and demonstrate the importance of virtual destructors in a class hierarchy involving base and derived classes. 
+Provide code examples to show the proper use of virtual destructors.
+*/
