@@ -1,0 +1,4 @@
+/*
+Implement a Counter class with a static member variable to keep track of the number of Counter objects created. 
+Provide static member functions to access and manipulate this count.
+*/
