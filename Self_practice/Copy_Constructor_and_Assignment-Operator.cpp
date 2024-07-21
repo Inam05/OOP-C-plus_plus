@@ -1,0 +1,4 @@
+/*
+Implement a String class with proper memory management. Provide a deep copy constructor and
+an overloaded assignment operator to handle deep copying of string data.
+*/
