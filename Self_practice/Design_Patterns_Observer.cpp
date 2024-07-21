@@ -1,0 +1,5 @@
+/*
+Implement the Observer design pattern for a WeatherStation class that notifies multiple Display classes 
+about weather changes. Ensure proper observer registration and notification.
+
+*/
