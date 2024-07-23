@@ -1,4 +1,4 @@
 /*
-Design a BankAccount class with attributes like accountNumber, accountHolderName, and balance. 
-mplement methods for deposit, withdraw, and checkBalance. How would you handle overdraft scenarios in the withdraw method?
+Create a base class Person with attributes name and age. Derive two classes Student and Teacher from Person. Implement polymorphic 
+behavior for a method displayInfo() to display information specific to Student and Teacher.
 */
