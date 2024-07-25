@@ -1,4 +1,4 @@
 /*
-Design a class GameCharacter with attributes name and health. Derive classes Warrior and Mage from GameCharacter. Implement polymorphic behavior for a method attack() 
-to simulate different attack styles for warriors and mages.
+Create a base class Course with attributes courseID and title. Derive classes OnlineCourse and OfflineCourse from Course. 
+Implement a virtual method displayCourseType() to indicate whether the course is online or offline.
 */
